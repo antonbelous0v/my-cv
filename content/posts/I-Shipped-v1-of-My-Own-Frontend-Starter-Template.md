@@ -10,7 +10,7 @@ Today I finished the first version of my own frontend starter template. Not a cl
 
 The template is built for projects that survive past the prototype phase. It assumes the codebase will grow, multiple people will touch it, and architecture decisions made on day one will compound over time.
 
-Repository: [github.com/AntonBelousovWEB/js-template](https://github.com/AntonBelousovWEB/js-template)
+Repository: [github.com/antonbelous0v/js-template](https://github.com/antonbelous0v/js-template)
 
 ## What Is Inside
 

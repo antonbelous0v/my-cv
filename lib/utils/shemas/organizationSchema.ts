@@ -8,7 +8,7 @@ export const organizationSchema = {
   description:
     "Independent frontend development, technical SEO, and web performance services by Anton Belousov.",
   sameAs: [
-    "https://github.com/AntonBelousovWEB",
+    "https://github.com/antonbelous0v",
     "https://www.linkedin.com/in/anton-belousov-1803042b1/",
     "https://anton-belousov-cv.vercel.app/blog",
   ],
@@ -41,7 +41,7 @@ export const organizationSchema = {
     jobTitle: "Senior Frontend Engineer",
     url: "https://anton-belousov-cv.vercel.app",
     sameAs: [
-      "https://github.com/AntonBelousovWEB",
+      "https://github.com/antonbelous0v",
       "https://www.linkedin.com/in/anton-belousov-1803042b1/",
       "https://anton-belousov-cv.vercel.app/blog",
     ],

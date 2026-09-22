@@ -15,7 +15,7 @@ export const ServiceSchema = {
     telephone: "+380663208556",
     url: "https://anton-belousov-cv.vercel.app",
     sameAs: [
-      "https://github.com/AntonBelousovWEB",
+      "https://github.com/antonbelous0v",
       "https://www.linkedin.com/in/anton-belousov-1803042b1/",
       "https://anton-belousov-cv.vercel.app/blog",
     ],

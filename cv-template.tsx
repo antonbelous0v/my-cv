@@ -106,11 +106,11 @@ export default function CVTemplate() {
                 hrefLang="en"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/AntonBelousovWEB"
+                href="https://github.com/antonbelous0v"
                 className="text-blue-600 hover:underline"
                 itemProp="url"
               >
-                github.com/AntonBelousovWEB
+                github.com/antonbelous0v
               </a>
             </p>
             <p className="mb-3">

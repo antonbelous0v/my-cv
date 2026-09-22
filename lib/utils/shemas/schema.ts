@@ -23,7 +23,7 @@ export const personSchema = {
   disambiguatingDescription:
     "Anton Belousov is a Senior JavaScript and Frontend Developer from Kyiv, Ukraine, focused on React, Next.js, TypeScript, technical SEO, Core Web Vitals, and frontend architecture.",
   sameAs: [
-    "https://github.com/AntonBelousovWEB",
+    "https://github.com/antonbelous0v",
     "https://www.linkedin.com/in/anton-belousov-1803042b1/",
     "https://anton-belousov-cv.vercel.app/blog",
   ],
