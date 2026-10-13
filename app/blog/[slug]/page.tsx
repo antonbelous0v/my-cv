@@ -9,7 +9,7 @@ import {
 import BlogContent from "@/components/blog/blog-content";
 import BlogHeader from "@/components/blog/BlogHeader";
 
-const baseUrl = "https://anton-belousov-cv.vercel.app";
+const baseUrl = "https://abelous0v.xyz";
 const coreArticleKeywords = [
   "Anton Belousov",
   "Senior Frontend Engineer",

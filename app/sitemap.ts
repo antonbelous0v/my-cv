@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { blogTopics, getAllPosts } from "@/lib/blog-utils";
 
-const siteUrl = "https://anton-belousov-cv.vercel.app";
+const siteUrl = "https://abelous0v.xyz";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts().map((post) => ({

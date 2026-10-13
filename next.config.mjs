@@ -7,6 +7,22 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'anton-belousov-cv.vercel.app' }],
+        destination: 'https://abelous0v.xyz/:path*',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.abelous0v.xyz' }],
+        destination: 'https://abelous0v.xyz/:path*',
+        permanent: true,
+      },
+    ]
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

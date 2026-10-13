@@ -4,20 +4,20 @@ import GoogleAnalytics from "./GoogleAnalytics";
 const profilePageSchema = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://anton-belousov-cv.vercel.app/#profile",
-  url: "https://anton-belousov-cv.vercel.app/",
+  "@id": "https://abelous0v.xyz/#profile",
+  url: "https://abelous0v.xyz/",
   name: "Anton Belousov - Senior JavaScript and Frontend Developer CV",
   about: {
     "@type": "Person",
-    "@id": "https://anton-belousov-cv.vercel.app/#person",
+    "@id": "https://abelous0v.xyz/#person",
   },
   mainEntity: {
     "@type": "Person",
-    "@id": "https://anton-belousov-cv.vercel.app/#person",
+    "@id": "https://abelous0v.xyz/#person",
     name: "Anton Belousov",
     jobTitle: "Senior Frontend Engineer",
     image:
-      "https://anton-belousov-cv.vercel.app/img/anton-belousov-senior-frontend-engineer.webp",
+      "https://abelous0v.xyz/img/anton-belousov-senior-frontend-engineer.webp",
     knowsAbout: [
       "JavaScript",
       "React",

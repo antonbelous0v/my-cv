@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Head } from "@/components/seo/Head";
 
-const siteUrl = "https://anton-belousov-cv.vercel.app";
+const siteUrl = "https://abelous0v.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

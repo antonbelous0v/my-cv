@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { blogTopics, getAllPosts } from "@/lib/blog-utils";
 
-const baseUrl = "https://anton-belousov-cv.vercel.app";
+const baseUrl = "https://abelous0v.xyz";
 
 export default function BlogPage() {
   const posts = getAllPosts();

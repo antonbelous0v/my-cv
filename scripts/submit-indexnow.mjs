@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const siteUrl = process.env.SITE_URL ?? "https://anton-belousov-cv.vercel.app";
+const siteUrl = process.env.SITE_URL ?? "https://abelous0v.xyz";
 const host = new URL(siteUrl).host;
 const key = "4f8f7d8c5c2f4e9eb1f0a3c2d6e7b809";
 const postsDir = path.join(process.cwd(), "content/posts");

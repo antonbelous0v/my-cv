@@ -1,7 +1,7 @@
 export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://anton-belousov-cv.vercel.app/#person",
+  "@id": "https://abelous0v.xyz/#person",
   name: "Anton Belousov",
   alternateName: [
     "Anton Belousov Senior Frontend Engineer",
@@ -10,7 +10,7 @@ export const personSchema = {
   ],
   jobTitle: "Senior Frontend Engineer",
   image:
-    "https://anton-belousov-cv.vercel.app/img/anton-belousov-senior-frontend-engineer.webp",
+    "https://abelous0v.xyz/img/anton-belousov-senior-frontend-engineer.webp",
   email: "polpoltrop228@gmail.com",
   telephone: "+380663208556",
   address: {
@@ -18,14 +18,14 @@ export const personSchema = {
     addressLocality: "Kyiv",
     addressCountry: "Ukraine",
   },
-  url: "https://anton-belousov-cv.vercel.app",
-  mainEntityOfPage: "https://anton-belousov-cv.vercel.app/",
+  url: "https://abelous0v.xyz",
+  mainEntityOfPage: "https://abelous0v.xyz/",
   disambiguatingDescription:
     "Anton Belousov is a Senior JavaScript and Frontend Developer from Kyiv, Ukraine, focused on React, Next.js, TypeScript, technical SEO, Core Web Vitals, and frontend architecture.",
   sameAs: [
     "https://github.com/antonbelous0v",
     "https://www.linkedin.com/in/anton-belousov-1803042b1/",
-    "https://anton-belousov-cv.vercel.app/blog",
+    "https://abelous0v.xyz/blog",
   ],
   description:
     "Senior Frontend Engineer with 5+ years building scalable React/Next.js apps. Performance (Core Web Vitals 90+), technical SEO, WebGL/Three.js, FSD architecture. 40-60% load time reduction, 30-50% PageSpeed improvements. Leads frontend teams.",

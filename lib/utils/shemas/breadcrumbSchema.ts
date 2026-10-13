@@ -8,13 +8,13 @@ export const breadcrumbSchema = {
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://anton-belousov-cv.vercel.app"
+      "item": "https://abelous0v.xyz"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://anton-belousov-cv.vercel.app/blog"
+      "item": "https://abelous0v.xyz/blog"
     }
   ]
 };

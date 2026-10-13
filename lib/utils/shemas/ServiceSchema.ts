@@ -1,23 +1,23 @@
 export const ServiceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://anton-belousov-cv.vercel.app/#frontend-development-service",
+  "@id": "https://abelous0v.xyz/#frontend-development-service",
   name: "Frontend Development, Technical SEO, and Performance Optimization",
   description:
     "React, Next.js, and TypeScript frontend development focused on technical SEO, Core Web Vitals, scalable architecture, and maintainable product interfaces.",
-  url: "https://anton-belousov-cv.vercel.app",
+  url: "https://abelous0v.xyz",
   provider: {
     "@type": "Person",
-    "@id": "https://anton-belousov-cv.vercel.app/#person",
+    "@id": "https://abelous0v.xyz/#person",
     name: "Anton Belousov",
     jobTitle: "Senior Frontend Engineer",
     email: "polpoltrop228@gmail.com",
     telephone: "+380663208556",
-    url: "https://anton-belousov-cv.vercel.app",
+    url: "https://abelous0v.xyz",
     sameAs: [
       "https://github.com/antonbelous0v",
       "https://www.linkedin.com/in/anton-belousov-1803042b1/",
-      "https://anton-belousov-cv.vercel.app/blog",
+      "https://abelous0v.xyz/blog",
     ],
   },
   areaServed: [

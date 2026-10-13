@@ -20,7 +20,7 @@ export async function generateMetadata({
     };
   }
 
-  const baseUrl = "https://anton-belousov-cv.vercel.app";
+  const baseUrl = "https://abelous0v.xyz";
   const url = `${baseUrl}/blog/${post.slug}`;
   const image = post.image ?? "/og-image.png";
 

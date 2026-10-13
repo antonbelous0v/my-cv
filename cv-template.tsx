@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const profileImageUrl =
-  "https://anton-belousov-cv.vercel.app/img/anton-belousov-senior-frontend-engineer.webp";
+  "https://abelous0v.xyz/img/anton-belousov-senior-frontend-engineer.webp";
 const profileImageAlt =
   "Anton Belousov, Senior Frontend Engineer specializing in React, Next.js, TypeScript, performance, and technical SEO";
 
@@ -71,7 +71,7 @@ export default function CVTemplate() {
             >
               <meta
                 itemProp="contentUrl"
-                content="https://anton-belousov-cv.vercel.app/img/anton-belousov-senior-frontend-engineer-thumb.webp"
+                content="https://abelous0v.xyz/img/anton-belousov-senior-frontend-engineer-thumb.webp"
               />
               <meta itemProp="width" content="180px" />
               <meta itemProp="height" content="180px" />

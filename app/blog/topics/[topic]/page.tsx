@@ -7,7 +7,7 @@ import {
 } from "@/lib/blog-utils";
 import { notFound } from "next/navigation";
 
-const baseUrl = "https://anton-belousov-cv.vercel.app";
+const baseUrl = "https://abelous0v.xyz";
 
 export function generateStaticParams() {
   return blogTopics.map((topic) => ({ topic: topic.slug }));
