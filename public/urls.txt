@@ -5,6 +5,8 @@ https://abelous0v.xyz/blog/topics/react-architecture
 https://abelous0v.xyz/blog/topics/javascript
 https://abelous0v.xyz/blog/topics/typescript
 https://abelous0v.xyz/blog/topics/technical-seo
+https://abelous0v.xyz/blog/i-made-my-starter-enforce-its-own-architecture
+https://abelous0v.xyz/blog/i-wrote-a-relational-database-in-javascript-to-prove-my-friend-wrong
 https://abelous0v.xyz/blog/dependency-inversion-in-react-composition-root-di-and-service-boundaries
 https://abelous0v.xyz/blog/frontend-architecture-fundamentals-solid-without-dogma
 https://abelous0v.xyz/blog/model-view-patterns-for-react-developers

@@ -35,7 +35,7 @@ export default function CVTemplate() {
               Senior Frontend Engineer
             </h2>
             <p className="text-lg sm:text-xl text-gray-500">
-              Performance & Technical SEO | Scalable Architecture | 5+ years
+              Performance & Technical SEO | Scalable Architecture | 6+ years
               experience
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function CVTemplate() {
           Professional Summary
         </h3>
         <p className="text-justify leading-relaxed" itemProp="description">
-          Senior Frontend Developer with 5+ years of commercial experience building production React, Next.js and TypeScript applications. Strong focus on scalable frontend architecture, performance optimization, code quality, refactoring and technical delivery. Experienced in building products from scratch, improving legacy codebases, working with REST API, optimizing Core Web Vitals, and leading frontend delivery through code review, sprint planning and mentoring.
+          Senior Frontend Developer with 6+ years of commercial experience building production React, Next.js and TypeScript applications. Strong focus on scalable frontend architecture, performance optimization, code quality, refactoring and technical delivery. Experienced in building products from scratch, improving legacy codebases, working with REST API, optimizing Core Web Vitals, and leading frontend delivery through code review, sprint planning and mentoring.
         </p>
         <p className="text-justify leading-relaxed mt-4">
           I also bring a strong AI-native approach to software engineering: I actively
@@ -270,7 +270,7 @@ export default function CVTemplate() {
             itemScope
             itemType="https://schema.org/Organization"
           >
-            <span itemProp="name">Palace NFT — TMA</span>
+            <span itemProp="name">Palace NFT</span>
           </h5>
           <ul
             className="list-disc pl-5 md:pl-8 space-y-3 md:space-y-5"
@@ -311,7 +311,7 @@ export default function CVTemplate() {
               className="text-xl sm:text-2xl lg:text-3xl font-semibold"
               itemProp="roleName"
             >
-              Middle Frontend Developer
+              Senior Frontend Developer
             </h4>
             <span
               className="text-gray-600 text-lg md:text-xl lg:text-2xl">
@@ -476,7 +476,7 @@ export default function CVTemplate() {
             itemScope
             itemType="https://schema.org/Organization"
           >
-            <span itemProp="name">[Company name hidden by agreement]</span>
+            <span itemProp="name">NDA</span>
           </h5>
           <ul
             className="list-disc pl-5 md:pl-8 space-y-3 md:space-y-5"

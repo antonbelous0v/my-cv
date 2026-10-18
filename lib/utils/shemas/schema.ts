@@ -28,7 +28,7 @@ export const personSchema = {
     "https://abelous0v.xyz/blog",
   ],
   description:
-    "Senior Frontend Engineer with 5+ years building scalable React/Next.js apps. Performance (Core Web Vitals 90+), technical SEO, WebGL/Three.js, FSD architecture. 40-60% load time reduction, 30-50% PageSpeed improvements. Leads frontend teams.",
+    "Senior Frontend Engineer with 6+ years building scalable React/Next.js apps. Performance (Core Web Vitals 90+), technical SEO, WebGL/Three.js, FSD architecture. 40-60% load time reduction, 30-50% PageSpeed improvements. Leads frontend teams.",
   hasOccupation: {
     "@type": "Occupation",
     name: "Senior Frontend Engineer",
