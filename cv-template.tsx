@@ -83,11 +83,23 @@ export default function CVTemplate() {
           <div>
             <p className="mb-3">
               <strong>Email:</strong>{" "}
-              <span itemProp="email">anton@abelous0v.xyz</span>
+              <a
+                href="mailto:anton@abelous0v.xyz"
+                itemProp="email"
+                className="text-blue-600 hover:underline"
+              >
+                anton@abelous0v.xyz
+              </a>
             </p>
             <p className="mb-3">
               <strong>Phone:</strong>{" "}
-              <span itemProp="telephone">+380663208556</span>
+              <a
+                href="tel:+380663208556"
+                itemProp="telephone"
+                className="text-blue-600 hover:underline"
+              >
+                +380663208556
+              </a>
             </p>
             <p
               className="mb-3"
