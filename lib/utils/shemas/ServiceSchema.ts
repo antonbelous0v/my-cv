@@ -11,7 +11,7 @@ export const ServiceSchema = {
     "@id": "https://abelous0v.xyz/#person",
     name: "Anton Belousov",
     jobTitle: "Senior Frontend Engineer",
-    email: "polpoltrop228@gmail.com",
+    email: "anton@abelous0v.xyz",
     telephone: "+380663208556",
     url: "https://abelous0v.xyz",
     sameAs: [

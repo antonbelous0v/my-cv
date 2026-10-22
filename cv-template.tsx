@@ -83,7 +83,7 @@ export default function CVTemplate() {
           <div>
             <p className="mb-3">
               <strong>Email:</strong>{" "}
-              <span itemProp="email">polpoltrop228@gmail.com</span>
+              <span itemProp="email">anton@abelous0v.xyz</span>
             </p>
             <p className="mb-3">
               <strong>Phone:</strong>{" "}

@@ -11,7 +11,7 @@ export const personSchema = {
   jobTitle: "Senior Frontend Engineer",
   image:
     "https://abelous0v.xyz/img/anton-belousov-senior-frontend-engineer.webp",
-  email: "polpoltrop228@gmail.com",
+  email: "anton@abelous0v.xyz",
   telephone: "+380663208556",
   address: {
     "@type": "PostalAddress",

@@ -15,7 +15,7 @@ export const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "Professional inquiries",
-    email: "polpoltrop228@gmail.com",
+    email: "anton@abelous0v.xyz",
     telephone: "+380663208556",
     areaServed: ["UA", "EU", "US"],
     availableLanguage: [
