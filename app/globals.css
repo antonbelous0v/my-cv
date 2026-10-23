@@ -88,6 +88,19 @@ code {
   text-shadow: none;
 }
 
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  html,
+  body {
+    margin: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #c0c0c0 #f1f1f1;

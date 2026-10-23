@@ -79,21 +79,21 @@ const skills = [
 export default function CVTemplate() {
   return (
     <article
-      className="cv mx-auto w-full max-w-5xl bg-transparent px-5 py-7 text-base leading-relaxed text-[#201d19] sm:px-8 md:px-10 print:max-w-none print:p-0 print:text-[9.5pt] print:leading-[1.28]"
+      className="cv mx-auto w-full max-w-5xl bg-transparent px-5 py-7 text-base leading-relaxed text-[#201d19] sm:px-8 md:px-10"
       itemScope
       itemType="https://schema.org/Person"
     >
-      <header className="mb-8 print:mb-3">
-        <div className="grid grid-cols-[128px_minmax(0,1fr)] gap-x-4 gap-y-4 md:grid-cols-[minmax(0,1fr)_200px] md:gap-x-8 md:gap-y-0 print:block">
+      <header className="mb-8">
+        <div className="grid grid-cols-[128px_minmax(0,1fr)] gap-x-4 gap-y-4 md:grid-cols-[minmax(0,1fr)_200px] md:gap-x-8 md:gap-y-0">
           <div className="col-start-2 row-start-1 min-w-0 md:col-start-1">
             <h1
-              className="font-serif text-4xl font-bold leading-tight sm:text-5xl print:text-[24pt]"
+              className="font-serif text-4xl font-bold leading-tight sm:text-5xl"
               itemProp="name"
             >
               Anton Belousov
             </h1>
             <p
-              className="mt-1 text-2xl text-[#37312b] print:text-[14pt]"
+              className="mt-1 text-2xl text-[#37312b]"
               itemProp="jobTitle"
             >
               Senior Frontend Engineer
@@ -104,7 +104,7 @@ export default function CVTemplate() {
           </div>
 
           <figure
-            className="relative col-start-1 row-start-1 h-32 w-32 overflow-hidden justify-self-start rounded-lg md:col-start-2 md:row-span-2 md:h-auto md:w-full md:self-stretch md:justify-self-end print:hidden"
+            className="relative col-start-1 row-start-1 h-32 w-32 overflow-hidden justify-self-start rounded-lg md:col-start-2 md:row-span-2 md:h-auto md:w-full md:self-stretch md:justify-self-end"
             itemProp="image"
             itemScope
             itemType="https://schema.org/ImageObject"
@@ -128,7 +128,7 @@ export default function CVTemplate() {
             <meta itemProp="representativeOfPage" content="true" />
           </figure>
 
-          <address className="col-span-2 row-start-2 flex flex-wrap gap-x-4 gap-y-1 not-italic text-[#49423b] md:col-span-1 md:col-start-1 md:mt-2 print:mt-2 print:text-[9pt]">
+          <address className="col-span-2 row-start-2 flex flex-wrap gap-x-4 gap-y-1 not-italic text-[#49423b] md:col-span-1 md:col-start-1 md:mt-2">
             <span itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
               <span itemProp="addressLocality">Kyiv</span>,{" "}
               <span itemProp="addressCountry">Ukraine</span>
@@ -149,9 +149,9 @@ export default function CVTemplate() {
         </div>
       </header>
 
-      <section className="mb-7 print:mb-3" aria-labelledby="summary-title">
+      <section className="mb-7" aria-labelledby="summary-title">
         <h2
-          className="mb-3 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold print:mb-1 print:text-[12pt]"
+          className="mb-3 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold"
           id="summary-title"
         >
           Professional Summary
@@ -165,14 +165,14 @@ export default function CVTemplate() {
         </p>
       </section>
 
-      <section className="mb-7 print:mb-3" aria-labelledby="skills-title">
+      <section className="mb-7" aria-labelledby="skills-title">
         <h2
-          className="mb-3 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold print:mb-1 print:text-[12pt]"
+          className="mb-3 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold"
           id="skills-title"
         >
           Technical Skills
         </h2>
-        <dl className="space-y-1 print:space-y-0.5">
+        <dl className="space-y-1">
           {skills.map(([label, value]) => (
             <div key={label}>
               <dt className="inline font-semibold">{label}: </dt>
@@ -186,13 +186,13 @@ export default function CVTemplate() {
 
       <section aria-labelledby="experience-title">
         <h2
-          className="mb-4 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold print:mb-1 print:text-[12pt]"
+          className="mb-4 border-b border-[#cfc5b7] pb-1 font-serif text-xl font-bold"
           id="experience-title"
         >
           Work Experience
         </h2>
 
-        <div className="space-y-6 print:space-y-2">
+        <div className="space-y-6">
           {roles.map((role) => (
             <section
               className="break-inside-avoid"
@@ -215,14 +215,14 @@ export default function CVTemplate() {
                     </a>
                   </span>
                 </h3>
-                <p className="text-sm text-gray-600 print:text-[8.5pt]">
+                <p className="text-sm text-gray-600">
                   <meta itemProp="startDate" content={role.startDate} />
                   <meta itemProp="endDate" content={role.endDate} />
                   {role.date}
                 </p>
               </div>
               <ul
-                className="mt-2 list-disc space-y-1 pl-5 print:mt-0.5 print:space-y-0"
+                className="mt-2 list-disc space-y-1 pl-5"
                 itemProp="responsibilities"
               >
                 {role.bullets.map((bullet) => (
@@ -235,14 +235,14 @@ export default function CVTemplate() {
           <section className="break-inside-avoid">
             <div className="flex flex-wrap items-baseline justify-between gap-x-4">
               <h3 className="font-semibold">Earlier Frontend Experience</h3>
-              <p className="text-sm text-gray-600 print:text-[8.5pt]">
+              <p className="text-sm text-gray-600">
                 Oct 2020 — Jul 2023
               </p>
             </div>
             <p className="mt-1">
               Frontend Developer (Freelance) · Junior Frontend Developer (NDA)
             </p>
-            <ul className="mt-2 list-disc space-y-1 pl-5 print:mt-0.5 print:space-y-0">
+            <ul className="mt-2 list-disc space-y-1 pl-5">
               <li>
                 Built client and product interfaces with React, Redux, Next.js,
                 and Vue.js; integrated REST APIs and authentication flows.
@@ -263,7 +263,7 @@ export default function CVTemplate() {
               <h3 className="font-semibold" itemProp="name">
                 Kyiv European University · Contract Project
               </h3>
-              <p className="text-sm text-gray-600 print:text-[8.5pt]">
+              <p className="text-sm text-gray-600">
                 Jan 2025 — Jun 2025
               </p>
             </div>
@@ -277,7 +277,7 @@ export default function CVTemplate() {
           <section className="break-inside-avoid">
             <div className="flex flex-wrap items-baseline justify-between gap-x-4">
               <h3 className="font-semibold">Technical SEO & Performance Audits</h3>
-              <p className="text-sm text-gray-600 print:text-[8.5pt]">
+              <p className="text-sm text-gray-600">
                 Freelance
               </p>
             </div>
@@ -289,7 +289,7 @@ export default function CVTemplate() {
         </div>
       </section>
 
-      <footer className="mt-8 flex items-center justify-between border-t border-[#cfc5b7] pt-3 text-sm print:mt-3 print:pt-1.5 print:text-[9pt]">
+      <footer className="mt-8 flex items-center justify-between border-t border-[#cfc5b7] pt-3 text-sm">
         <span itemProp="knowsLanguage">English: B1/B2</span>
         <Link
           hrefLang="en"
