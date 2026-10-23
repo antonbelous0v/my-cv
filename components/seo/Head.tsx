@@ -9,6 +9,12 @@ export const Head: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <html lang="en">
       <head>
+        <link
+          rel="preload"
+          href="/img/paper.webp"
+          as="image"
+          type="image/webp"
+        />
         <meta
           name="google-site-verification"
           content="TZ6c8LDq6aa-m3AmKWJ1TAJS1n2gsudrj7CgbWP-Oqw"

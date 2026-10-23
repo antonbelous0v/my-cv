@@ -69,7 +69,7 @@ export default function BlogPage() {
       <script type="application/ld+json">
         {JSON.stringify(itemListSchema)}
       </script>
-      <div className="wrapper max-w-7xl mx-auto p-6 md:p-10 bg-white text-gray-800 text-base sm:text-lg md:text-xl lg:text-2xl">
+      <div className="wrapper mx-auto max-w-7xl bg-transparent p-6 text-base text-[#201d19] sm:text-lg md:p-10 md:text-xl lg:text-2xl">
         <header className="mb-12 md:mb-16">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-6 header_wrapper">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2">
@@ -100,7 +100,7 @@ export default function BlogPage() {
             <Link
               key={topic.slug}
               href={`/blog/topics/${topic.slug}`}
-              className="rounded-full border border-gray-300 px-4 py-2 text-base text-gray-700 hover:border-blue-500 hover:text-blue-600"
+              className="rounded-full border border-[#49423b] px-4 py-2 text-base text-gray-700 hover:border-[#7b2433] hover:text-blue-600"
             >
               {topic.title}
             </Link>
@@ -117,7 +117,7 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="rounded-lg border border-gray-200 p-4 text-lg font-semibold text-gray-800 hover:border-blue-500 hover:text-blue-600"
+              className="rounded-lg border border-[#49423b] p-4 text-lg font-semibold text-gray-800 hover:border-[#7b2433] hover:text-blue-600"
             >
               {post.title}
             </Link>
@@ -139,36 +139,27 @@ export default function BlogPage() {
         ) : (
           <div className="grid grid-cols-1 gap-8">
             {posts.map((post) => (
-              <article
-                key={post.slug}
-                className="box_post border-2 border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
-              >
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-3 text-gray-800">
-                    <Link
-                      hrefLang="en"
-                      href={`/blog/${post.slug}`}
-                      className="hover:text-blue-600"
-                    >
-                      {post.title}
-                    </Link>
+              <article key={post.slug}>
+                <Link
+                  hrefLang="en"
+                  href={`/blog/${post.slug}`}
+                  className="box_post group block overflow-hidden rounded-lg border-2 border-[#49423b] p-6 shadow-sm transition hover:border-[#7b2433] hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#7b2433]"
+                >
+                  <h3 className="mb-3 text-2xl font-bold text-gray-800 group-hover:text-blue-700">
+                    {post.title}
                   </h3>
-                  <div className="text-gray-600 mb-4">
+                  <div className="mb-4 text-gray-600">
                     {new Date(post.date).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",
                       day: "numeric",
                     })}
                   </div>
-                  <p className="text-gray-700 mb-4">{post.excerpt}</p>
-                  <Link
-                    hrefLang="en"
-                    href={`/blog/${post.slug}`}
-                    className="inline-block text-blue-600 hover:underline font-medium"
-                  >
+                  <p className="mb-4 text-gray-700">{post.excerpt}</p>
+                  <span className="font-medium text-[#7b2433] group-hover:underline">
                     Read more →
-                  </Link>
-                </div>
+                  </span>
+                </Link>
               </article>
             ))}
           </div>

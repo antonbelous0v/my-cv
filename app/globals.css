@@ -9,7 +9,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  background-color: #f9f9ef;
+  background-image: image-set(
+    url("/img/paper.webp") type("image/webp"),
+    url("/img/paper.png") type("image/png")
+  );
+  font-variant-numeric: tabular-nums;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 
 html, body {
@@ -28,7 +34,11 @@ ul {
 
 .wrapper_header__blog_post {
   padding-bottom: 0 !important;
-  background: linear-gradient(180deg, rgb(231, 231, 231) 34%, rgba(255,255,255,1) 79%);
+  background-color: #f9f9ef !important;
+  background-image: image-set(
+    url("/img/paper.webp") type("image/webp"),
+    url("/img/paper.png") type("image/png")
+  ) !important;
 }
 
 .wrapper_content__blog_post {
@@ -36,15 +46,7 @@ ul {
 }
 
 .wrapper_header__blog_post::before {
-  content: "";
-  position: absolute;
-  top: -30px; left: -10%;
-  width: 120%;
-  border-radius: 0px 0px 240px 240px;
-  height: 100%;
-  background: inherit;
-  filter: blur(20px);
-  z-index: -1;
+  content: none;
 }
 
 @media screen and (max-width: 640px) {
@@ -67,9 +69,42 @@ ul {
   flex: 1 1 auto;
 }
 
+.wrapper a,
+.wrapper_content__blog_post a,
+.wrapper_header__blog_post a {
+  color: #7b2433;
+}
+
+.wrapper h1,
+.wrapper h2,
+.wrapper_content__blog_post h1,
+.wrapper_content__blog_post h2,
+.wrapper_header__blog_post h1 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+pre,
+code {
+  text-shadow: none;
+}
+
 @media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
   body {
     font-size: 12pt;
+  }
+
+  .cv section {
+    margin-bottom: 0;
+    page-break-inside: auto;
+  }
+
+  .cv section section {
+    break-inside: avoid;
   }
 
   h1 {

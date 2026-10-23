@@ -162,7 +162,7 @@ export default async function BlogPost({
         {JSON.stringify(breadcrumbSchema)}
       </script>
       <BlogHeader title={post.title} date={post.date} />
-      <div className="wrapper_content__blog_post max-w-5xl mx-auto p-6 md:p-10 bg-white text-gray-800 text-base sm:text-lg md:text-xl">
+      <div className="wrapper_content__blog_post mx-auto max-w-5xl bg-transparent p-6 text-base text-[#201d19] sm:text-lg md:p-10 md:text-xl">
         <article className="prose prose-lg md:prose-xl max-w-none">
           <BlogContent content={post.content} />
         </article>
@@ -175,7 +175,7 @@ export default async function BlogPost({
                 <Link
                   key={topic.slug}
                   href={`/blog/topics/${topic.slug}`}
-                  className="rounded-full border border-gray-300 px-4 py-2 text-base text-gray-700 hover:border-blue-500 hover:text-blue-600"
+                  className="rounded-full border border-[#49423b] px-4 py-2 text-base text-gray-700 hover:border-[#7b2433] hover:text-blue-600"
                 >
                   {topic.title}
                 </Link>
@@ -194,7 +194,7 @@ export default async function BlogPost({
                 <li key={relatedPost.slug}>
                   <Link
                     href={`/blog/${relatedPost.slug}`}
-                    className="block h-full rounded-lg border border-gray-200 p-4 text-gray-900 transition hover:border-blue-400 hover:text-blue-700"
+                    className="block h-full rounded-lg border border-[#49423b] p-4 text-gray-900 transition hover:border-[#7b2433] hover:text-blue-700"
                   >
                     <span className="text-sm text-gray-500">
                       {relatedPost.date}
