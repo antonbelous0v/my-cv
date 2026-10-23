@@ -88,47 +88,6 @@ code {
   text-shadow: none;
 }
 
-@media print {
-  @page {
-    size: A4;
-    margin: 10mm;
-  }
-
-  body {
-    font-size: 12pt;
-  }
-
-  .cv section {
-    margin-bottom: 0;
-    page-break-inside: auto;
-  }
-
-  .cv section section {
-    break-inside: avoid;
-  }
-
-  h1 {
-    font-size: 24pt;
-  }
-
-  h2 {
-    font-size: 18pt;
-  }
-
-  h3 {
-    font-size: 16pt;
-  }
-
-  h4 {
-    font-size: 14pt;
-  }
-
-  section {
-    page-break-inside: avoid;
-    margin-bottom: 20pt;
-  }
-}
-
 * {
   scrollbar-width: thin;
   scrollbar-color: #c0c0c0 #f1f1f1;
