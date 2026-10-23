@@ -62,7 +62,7 @@ export async function generateMetadata({
 }
 
 export const viewport: Viewport = {
-  themeColor: "#3b82f6",
+  themeColor: "#efe9dd",
 };
 
 export default function BlogPostLayout({
